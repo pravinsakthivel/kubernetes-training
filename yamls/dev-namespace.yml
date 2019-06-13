@@ -1,0 +1,10 @@
+##version of api server
+apiVersion: v1
+##Kind of object to be defined
+##common kinds are pos,Replicaset,Deployment,Service,Secret...
+kind: Namespace
+##Add labels or any other defined values
+metadata:
+  name: dev
+
+##To create namespace/run this yaml
